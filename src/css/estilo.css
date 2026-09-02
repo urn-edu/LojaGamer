@@ -2,8 +2,8 @@
     --color-primary:purple;
     --bg-dark:#141414;
     --text-color:#fff;
-    --btn-color:#00ff88;
-    --header-bg: rgba(0,0,0,0.8);
+    --btn-color:#dd1f1f;
+    --header-bg: rgba(5, 5, 5, 0.8);
     --linear-bg: linear-gradient(to right,aqua,purple);
 }
 
@@ -30,6 +30,7 @@ header{
     padding: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1.7rem;
+    transition: 0.1s;
 }
 
 .logo span{
@@ -41,11 +42,12 @@ header{
     color: var(--bg-dark);
     letter-spacing: 10px;
     animation: acender 0.5s forwards;
+    transition: 0.1s;
 }
 @keyframes acender {
     to{
         color: var(--text-color);
-        text-shadow: 0 0 10px #32f332, 0 0 #a8dfe1;
+        text-shadow: 0 0 15px #742337, 0 0 #be1111;
     }
 }
 
@@ -62,11 +64,13 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     color: var(--text-color);
+    transition: 0.1s;
 }
 
 nav ul li a:hover{
     color: var(--btn-color);
     text-transform: uppercase;
+    transition: 0.1s;
 }
 
 .menu-hamburguer{
