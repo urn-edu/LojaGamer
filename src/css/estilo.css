@@ -30,7 +30,7 @@ header{
     padding: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1.7rem;
-    transition: 0.1s;
+    transition: 0.15s;
     cursor: default;
 }
 
@@ -43,7 +43,8 @@ header{
     color: var(--bg-dark);
     letter-spacing: 10px;
     animation: acender 0.5s forwards;
-    transition: 0.1s;
+    transition: 0.15s;
+    padding-left: 0px;
 }
 @keyframes acender {
     to{
@@ -88,6 +89,19 @@ nav ul li a:hover{
     height: 3px;
     background: var(--btn-color);
     border-radius: 10px;
+}
+
+/* estilização slide show */
+
+#banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#imgBanner{
+    width: 600px;
+    height: 600px;
 }
 
 footer{
