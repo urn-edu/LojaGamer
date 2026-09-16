@@ -7,7 +7,8 @@ let imagens = ["/src/assets/carro_azul.png",
 let index = 0;  
 
 // tempo para a troca de imagens
-let tempo = 3000; // 3s
+let tempo = 2000; // 2s
+
 
 // função do slideshow
 function SlideShow(){

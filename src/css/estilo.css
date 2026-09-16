@@ -4,7 +4,7 @@
     --text-color:#fff;
     --btn-color:#dd1f1f;
     --header-bg: rgba(5, 5, 5, 0.8);
-    --linear-bg: linear-gradient(to right,aqua,purple);
+    --linear-bg: linear-gradient(to right,rgb(139, 44, 44),purple);
 }
 
 *{
@@ -100,9 +100,9 @@ nav ul li a:hover{
 }
 
 #imgBanner{
-    width: 30%;
-    height: 20%;
-    border-radius: 3%;
+    width: 600px;
+    height: 400px;
+    border-radius: 50%;
 }
 
 footer{
