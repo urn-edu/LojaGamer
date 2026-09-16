@@ -1,7 +1,7 @@
 // array de imagens
-let imagens = ["/src/assets/carro_azul.png",
-    "/src/assets/carro_branco.png",
-    "/src/assets/carro_real.png"];
+let imagens = ["/src/assets/t1.jpg",
+    "/src/assets/t2.webp",
+    "/src/assets/t3.jpg"];
 
 // posição base para as imagens
 let index = 0;  
